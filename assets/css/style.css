@@ -1,4 +1,4 @@
-html {
+* {
   margin:0;
   padding:0;
 }
@@ -30,25 +30,70 @@ li {
   
 }
 
+h1{
+  padding-top: 10px;
+}
+
 main {
-	background: white; 
-  height:350px;
+	background: #61d2b4; 
+  height:340px;
+  width:100%;
   text-align: center;
-  margin-left: ;
+  border:solid #f7b801;
+  border-top-width: 5px;
+  border-bottom-width: 0;
+  border-left: 0; 
+}
+
+div {
+  height: 10px;
+  width: 100%;
+  color:#367591;
 }
 
 img {
   width: 200px; 
   height: 200px;
+  padding: 10px;
 }
 
-#contact {
-  background-color: #61d2b4;
+.contact {
+  position: center;
+  background: #61d2b4;
   height: 150px;
+  width: 100%;
 }
 
 h2 {
-color:white
+  margin: 10px
+}
+
+section {
+  border:solid #152744;
+  margin: 0 auto;
+  height: 60px;
+  width: 350px;
+  padding: 10px;
+  border-width: 3px;
+  border-radius: 15px;
+}
+
+.button {
+  padding-top: 5px;
+}
+
+input.button {
+  margin: 15px;
+}
+
+footer {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 0px;
+  height: 20px;
+  width: 100%;
+  background-color: #367591;
+  
 }
 
 .first-color { 
