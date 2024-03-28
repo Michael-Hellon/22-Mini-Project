@@ -1,1 +1,63 @@
-<!-- CSS Styling goes here -->
+body {
+  background-color: #152744;
+  width: 100%;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #367591;
+  margin-top: -20px;
+  
+}
+
+ul {
+  color: #9dfdc7;
+  text-align: right;
+  font-size: 20px;
+}
+
+li {
+  margin: 15px 0;
+  margin-inline: 20px ;
+  list-style-type: none; 
+  display: inline-block;
+  
+}
+
+main {
+	background: white; 
+  height:350px;
+  text-align: center;
+  margin-left: -10px;
+}
+
+img {
+  width: 200px; 
+  height: 200px;
+}
+
+#contact {
+  background-color: #61d2b4;
+  height: 150px;
+}
+
+h2 {
+
+}
+
+.first-color { 
+	background: #152744; 
+}
+	
+.second-color { 
+	background: #367591; 
+}
+
+.third-color { 
+	background: #61d2b4; 
+}
+
+.fourth-color { 
+	background: #9dfdc7; 
+}
