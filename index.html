@@ -9,28 +9,26 @@
   </head>
 
   <body>
-    <header>
+    <section class="header">
       <!-- It's done when the header is fixed to the top of the page on scroll.-->
-      <ul>
-        <li>Github<a url="https://github.com/Michael-Hellon" alt="Michael;'s GitHub Link"></a></li>
-        <li>Portfolio<a url="https://github.com/Michael-Hellon/KU_repo" alt="Michael's Portfolio Link"></a></li>
+      <nav>
+        <a url="https://github.com/Michael-Hellon">GitHub<alt="Michael GitHub Link"></a>
+        <a url="https://github.com/Michael-Hellon/KU_repo">Portfolio<alt="Michael Portfolio Link"></a>
         <!-- t's done when, if the contact link is clicked, the page jumps directly to the contact form. -->
-        <li>Contact</a></li>
-      </ul>
-      <div>
-      </div>
-    </header>
+        <a href="#name">Contact</a>
+      </nav>
+    </section>
     <main>
       <h1>My New Website</h1>
         <img src="./assets/images/Beaker.jpg" alt="Beaker"/>
       <p>Meep meep meep meep meep meep meep meep mepp meep meep meep.</p>
-      <p> (From the Universal Translator)</p>
+      <p class="italic">(Courtesy of the Universal Translator)</p>
       <p>It is better to suffer once than to be in perpetual apprehension. </p>
     </main>
     <main class="contact">
-      <h2>Contact Me</h2>
+      <h3>Contact Me</h3>
       <!-- It's done when the contact form includes input elements for name and email. -->
-        <section>
+        <section id="label">
           <label for="name">Name:</label><input type="name" id="name" placeholder="John Smith" size="30" /></br>
           <label for="email">Email:</label><input type="email" id="email" placeholder="sophie@example.com"
           pattern=".@example\.com" size="30" required /></br>
@@ -45,6 +43,10 @@
       <h4>@ 2024 My New Website Production</h4>
   </footer>
     
+
+
+
+  
     
   
 
